@@ -1,0 +1,138 @@
+T3424 005:292.862   SEGGER J-Link V7.94 Log File
+T3424 005:292.913   DLL Compiled: Nov 29 2023 13:35:28
+T3424 005:292.918   Logging started @ 2024-01-22 06:46
+T3424 005:292.922   Process: D:\soft\keil5\UV4\UV4.exe
+T3424 005:292.927 - 3.212ms
+T3424 005:292.932 JLINK_SetWarnOutHandler(...)
+T3424 005:292.936 - 0.004ms
+T3424 005:292.941 JLINK_OpenEx(...)
+T3424 005:297.275   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T3424 005:298.641   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T3424 005:298.756   Decompressing FW timestamp took 104 us
+T3424 005:305.949   Hardware: V9.70
+T3424 005:305.961   S/N: 602712354
+T3424 005:305.967   OEM: SEGGER
+T3424 005:305.973   Feature(s): JFlash, FlashDL, FlashBP
+T3424 005:307.238   Bootloader: (Could not read)
+T3424 005:314.745   TELNET listener socket opened on port 19021
+T3424 005:320.002   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T3424 005:320.062   WEBSRV Failed to put socket into listener state (port 19080)
+T3424 005:320.139   WEBSRV Webserver running on local port 19081
+T3424 005:320.226   Looking for J-Link GUI Server exe at: D:\soft\keil5\ARM\Segger\JLinkGUIServer.exe
+T3424 005:320.246   Looking for J-Link GUI Server exe at: D:\soft\jflash\JLink_V794\JLinkGUIServer.exe
+T3424 005:320.254   Forking J-Link GUI Server: D:\soft\jflash\JLink_V794\JLinkGUIServer.exe
+T3424 005:323.592   J-Link GUI Server info: "J-Link GUI server V7.94b "
+T3424 005:323.759 - 30.817ms returns "O.K."
+T3424 005:323.805 JLINK_GetEmuCaps()
+T3424 005:323.812 - 0.006ms returns 0xB9FF7BBF
+T3424 005:323.820 JLINK_TIF_GetAvailable(...)
+T3424 005:324.290 - 0.469ms
+T3424 005:324.324 JLINK_SetErrorOutHandler(...)
+T3424 005:324.329 - 0.004ms
+T3424 005:324.991 JLINK_ExecCommand("ProjectFile = "C:\Users\Senen\Desktop\sjtt_study_board\Payload-SDK\samples\sample_c\platform\rtos_freertos\stm32f4_discovery\project\mdk_bootloader\JLinkSettings.ini"", ...). 
+T3424 005:326.906 - 1.915ms returns 0x00
+T3424 005:326.926 JLINK_ExecCommand("Device = STM32F407VGTx", ...). 
+T3424 005:327.414   Device "STM32F407VG" selected.
+T3424 005:327.656 - 0.723ms returns 0x00
+T3424 005:327.667 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T3424 005:327.675 - 0.001ms returns 0x01
+T3424 005:327.682 JLINK_GetHardwareVersion()
+T3424 005:327.687 - 0.005ms returns 97000
+T3424 005:327.694 JLINK_GetDLLVersion()
+T3424 005:327.699 - 0.004ms returns 79400
+T3424 005:327.705 JLINK_GetOEMString(...)
+T3424 005:327.711 JLINK_GetFirmwareString(...)
+T3424 005:327.717 - 0.005ms
+T3424 005:327.725 JLINK_GetDLLVersion()
+T3424 005:327.730 - 0.004ms returns 79400
+T3424 005:327.736 JLINK_GetCompileDateTime()
+T3424 005:327.741 - 0.005ms
+T3424 005:327.749 JLINK_GetFirmwareString(...)
+T3424 005:327.754 - 0.005ms
+T3424 005:327.760 JLINK_GetHardwareVersion()
+T3424 005:327.766 - 0.005ms returns 97000
+T3424 005:327.772 JLINK_GetSN()
+T3424 005:327.778 - 0.005ms returns 602712354
+T3424 005:327.784 JLINK_GetOEMString(...)
+T3424 005:327.792 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T3424 005:329.503 - 1.709ms returns 0x00
+T3424 005:329.530 JLINK_HasError()
+T3424 005:329.537 JLINK_SetSpeed(5000)
+T3424 005:329.893 - 0.356ms
+T3424 005:330.598 JLINK_HasError()
+T3424 005:330.610 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T3424 005:330.615 - 0.005ms returns JLINKARM_RESET_TYPE_NORMAL
+T3424 005:330.621 JLINK_Reset()
+T3424 005:331.094   InitTarget() start
+T3424 005:331.107    J-Link Script File: Executing InitTarget()
+T3424 005:331.563   SWD selected. Executing JTAG -> SWD switching sequence.
+T3424 005:334.702   DAP initialized successfully.
+T3424 005:342.920   InitTarget() end - Took 11.8ms
+T3424 005:343.948   Found SW-DP with ID 0x2BA01477
+T3424 005:347.324   DPIDR: 0x2BA01477
+T3424 005:347.333   CoreSight SoC-400 or earlier
+T3424 005:347.341   Scanning AP map to find all available APs
+T3424 005:348.303   AP[1]: Stopped AP scan as end of AP map has been reached
+T3424 005:348.315   AP[0]: AHB-AP (IDR: 0x24770011)
+T3424 005:348.322   Iterating through AP map to find AHB-AP to use
+T3424 005:349.552   AP[0]: Core found
+T3424 005:349.586   AP[0]: AHB-AP ROM base: 0xE00FF000
+T3424 005:350.213   CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+T3424 005:350.221   Found Cortex-M4 r0p1, Little endian.
+T3424 005:350.987   -- Max. mem block: 0x00010B48
+T3424 005:352.213   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T3424 005:352.757   CPU_ReadMem(4 bytes @ 0xE0002000)
+T3424 005:353.266   FPUnit: 6 code (BP) slots and 2 literal slots
+T3424 005:353.272   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T3424 005:353.770   CPU_ReadMem(4 bytes @ 0xE0001000)
+T3424 005:354.259   CPU_WriteMem(4 bytes @ 0xE0001000)
+T3424 005:354.765   CPU_ReadMem(4 bytes @ 0xE000ED88)
+T3424 005:355.273   CPU_WriteMem(4 bytes @ 0xE000ED88)
+T3424 005:355.763   CPU_ReadMem(4 bytes @ 0xE000ED88)
+T3424 005:356.242   CPU_WriteMem(4 bytes @ 0xE000ED88)
+T3424 005:356.767   CoreSight components:
+T3424 005:356.775   ROMTbl[0] @ E00FF000
+T3424 005:356.781   CPU_ReadMem(64 bytes @ 0xE00FF000)
+T3424 005:357.546   CPU_ReadMem(32 bytes @ 0xE000EFE0)
+T3424 005:358.134   [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+T3424 005:358.141   CPU_ReadMem(32 bytes @ 0xE0001FE0)
+T3424 005:358.791   [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+T3424 005:358.798   CPU_ReadMem(32 bytes @ 0xE0002FE0)
+T3424 005:359.391   [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+T3424 005:359.398   CPU_ReadMem(32 bytes @ 0xE0000FE0)
+T3424 005:360.045   [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+T3424 005:360.054   CPU_ReadMem(32 bytes @ 0xE0040FE0)
+T3424 005:360.728   [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+T3424 005:360.738   CPU_ReadMem(32 bytes @ 0xE0041FE0)
+T3424 005:361.415   [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+T3424 005:361.497   CPU is running
+T3424 005:361.509   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T3424 005:362.019   CPU is running
+T3424 005:362.033   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T3424 005:362.563   Reset: Halt core after reset via DEMCR.VC_CORERESET.
+T3424 005:363.452   Reset: Reset device via AIRCR.SYSRESETREQ.
+T3424 005:363.462   CPU is running
+T3424 005:363.469   CPU_WriteMem(4 bytes @ 0xE000ED0C)
+T3424 005:417.927   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T3424 005:418.664   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T3424 005:422.213   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T3424 005:429.355   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T3424 005:432.834   CPU_WriteMem(4 bytes @ 0xE0002000)
+T3424 005:433.382   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T3424 005:433.944   CPU_ReadMem(4 bytes @ 0xE0001000)
+T3424 005:434.463 - 103.841ms
+T3424 005:434.502 JLINK_GetId()
+T3424 005:434.994 - 0.491ms returns 0x2BA01477
+T3424 005:435.982 JLINK_GetFirmwareString(...)
+T3424 005:435.993 - 0.011ms
+T3424 006:208.064 JLINK_Close()
+T3424 006:208.595   OnDisconnectTarget() start
+T3424 006:208.611    J-Link Script File: Executing OnDisconnectTarget()
+T3424 006:208.625   CPU_WriteMem(4 bytes @ 0xE0042004)
+T3424 006:209.174   CPU_WriteMem(4 bytes @ 0xE0042008)
+T3424 006:209.765   OnDisconnectTarget() end - Took 1.15ms
+T3424 006:209.775   CPU_ReadMem(4 bytes @ 0xE0001000)
+T3424 006:210.263   CPU_WriteMem(4 bytes @ 0xE0001004)
+T3424 006:212.936 - 4.871ms
+T3424 006:212.946   
+T3424 006:212.950   Closed

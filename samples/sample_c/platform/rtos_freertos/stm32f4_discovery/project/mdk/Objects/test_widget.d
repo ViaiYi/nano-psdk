@@ -1,0 +1,16 @@
+.\objects\test_widget.o: ..\..\..\..\..\module_sample\widget\test_widget.c
+.\objects\test_widget.o: ..\..\..\..\..\module_sample\widget\test_widget.h
+.\objects\test_widget.o: ..\..\..\..\..\..\..\psdk_lib\include\dji_typedef.h
+.\objects\test_widget.o: D:\soft\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\test_widget.o: D:\soft\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\test_widget.o: D:\soft\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\test_widget.o: D:\soft\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\test_widget.o: D:\soft\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\test_widget.o: D:\soft\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\test_widget.o: ..\..\..\..\..\..\..\psdk_lib\include\dji_error.h
+.\objects\test_widget.o: ..\..\..\..\..\..\..\psdk_lib\include\dji_widget.h
+.\objects\test_widget.o: ..\..\..\..\..\..\..\psdk_lib\include\dji_logger.h
+.\objects\test_widget.o: ..\..\..\..\..\..\..\psdk_lib\include\dji_platform.h
+.\objects\test_widget.o: ..\..\..\..\..\module_sample\widget\../utils/util_misc.h
+.\objects\test_widget.o: ..\..\application\dji_sdk_config.h
+.\objects\test_widget.o: ..\..\..\..\..\module_sample\widget\file_binary_array_list_en.h

@@ -1,0 +1,97 @@
+T21E4 000:048.472   SEGGER J-Link V7.94 Log File
+T21E4 000:049.192   DLL Compiled: Nov 29 2023 13:35:28
+T21E4 000:049.197   Logging started @ 2024-04-11 07:25
+T21E4 000:049.200   Process: D:\soft\keil5\UV4\UV4.exe
+T21E4 000:049.489 - 49.203ms
+T21E4 000:049.743 JLINK_SetWarnOutHandler(...)
+T21E4 000:049.747 - 0.248ms
+T21E4 000:049.752 JLINK_OpenEx(...)
+T21E4 000:060.237   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T21E4 000:062.735   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T21E4 000:063.974   Decompressing FW timestamp took 958 us
+T21E4 000:072.961   Hardware: V9.70
+T21E4 000:072.980   S/N: 602712354
+T21E4 000:072.985   OEM: SEGGER
+T21E4 000:072.990   Feature(s): JFlash, FlashDL, FlashBP
+T21E4 000:075.218   Bootloader: (Could not read)
+T21E4 000:080.146   TELNET listener socket opened on port 19021
+T21E4 000:080.420   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T21E4 000:080.458   WEBSRV Failed to put socket into listener state (port 19080)
+T21E4 000:080.529   WEBSRV Webserver running on local port 19081
+T21E4 000:080.614   Looking for J-Link GUI Server exe at: D:\soft\keil5\ARM\Segger\JLinkGUIServer.exe
+T21E4 000:080.698   Looking for J-Link GUI Server exe at: C:\Program Files\SEGGER\JLink_V794\JLinkGUIServer.exe
+T21E4 000:080.722   Forking J-Link GUI Server: C:\Program Files\SEGGER\JLink_V794\JLinkGUIServer.exe
+T21E4 000:084.550   J-Link GUI Server info: "J-Link GUI server V7.94 "
+T21E4 000:084.921 - 34.997ms returns "O.K."
+T21E4 000:084.981 JLINK_GetEmuCaps()
+T21E4 000:084.991 - 0.007ms returns 0xB9FF7BBF
+T21E4 000:084.999 JLINK_TIF_GetAvailable(...)
+T21E4 000:085.570 - 0.570ms
+T21E4 000:085.599 JLINK_SetErrorOutHandler(...)
+T21E4 000:085.603 - 0.004ms
+T21E4 000:085.757 JLINK_ExecCommand("ProjectFile = "c:\Users\Senen\Desktop\antenna\sjtt_study_board\Payload-SDK\samples\sample_c\platform\rtos_freertos\stm32f4_discovery\project\mdk\JLinkSettings.ini"", ...). 
+T21E4 000:113.911   Ref file found at: D:\soft\keil5\ARM\Segger\JLinkDevices.ref
+T21E4 000:114.067   REF file references invalid XML file: C:\Program Files\SEGGER\JLink_V794\JLinkDevices.xml
+T21E4 000:115.012 - 29.255ms returns 0x00
+T21E4 000:115.242 JLINK_ExecCommand("Device = STM32F407VGTx", ...). 
+T21E4 000:116.902   Device "STM32F407VG" selected.
+T21E4 000:117.152 - 1.903ms returns 0x00
+T21E4 000:117.161 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T21E4 000:117.167 - 0.001ms returns 0x01
+T21E4 000:117.177 JLINK_GetHardwareVersion()
+T21E4 000:117.181 - 0.003ms returns 97000
+T21E4 000:117.187 JLINK_GetDLLVersion()
+T21E4 000:117.190 - 0.004ms returns 79400
+T21E4 000:117.196 JLINK_GetOEMString(...)
+T21E4 000:117.201 JLINK_GetFirmwareString(...)
+T21E4 000:117.205 - 0.003ms
+T21E4 000:117.341 JLINK_GetDLLVersion()
+T21E4 000:117.344 - 0.003ms returns 79400
+T21E4 000:117.349 JLINK_GetCompileDateTime()
+T21E4 000:117.353 - 0.003ms
+T21E4 000:117.391 JLINK_GetFirmwareString(...)
+T21E4 000:117.395 - 0.003ms
+T21E4 000:117.430 JLINK_GetHardwareVersion()
+T21E4 000:117.434 - 0.003ms returns 97000
+T21E4 000:117.470 JLINK_GetSN()
+T21E4 000:117.474 - 0.003ms returns 602712354
+T21E4 000:117.519 JLINK_GetOEMString(...)
+T21E4 000:117.669 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T21E4 000:120.746 - 3.076ms returns 0x00
+T21E4 000:120.782 JLINK_HasError()
+T21E4 000:121.001 JLINK_SetSpeed(5000)
+T21E4 000:121.590 - 0.589ms
+T21E4 000:121.627 JLINK_GetId()
+T21E4 000:122.593   InitTarget() start
+T21E4 000:122.600    J-Link Script File: Executing InitTarget()
+T21E4 000:123.202   SWD selected. Executing JTAG -> SWD switching sequence.
+T21E4 000:226.520   Error: Failed to initialized DAP.
+T21E4 000:226.605   Can not attach to CPU. Trying connect under reset.
+T21E4 000:429.199   
+  ***** Warning: 
+T21E4 000:429.218   RESET (pin 15) high, but should be low. Please check target hardware.
+T21E4 000:479.648   SWD selected. Executing JTAG -> SWD switching sequence.
+T21E4 000:582.742   Error: Failed to initialized DAP.
+T21E4 000:582.938   Connecting to CPU via connect under reset failed.
+T21E4 000:634.248   InitTarget() end - Took 511ms
+T21E4 000:634.390   Connect failed. Resetting via Reset pin and trying again.
+T21E4 000:837.199   
+  ***** Warning: 
+T21E4 000:837.208   RESET (pin 15) high, but should be low. Please check target hardware.
+T21E4 000:898.455   InitTarget() start
+T21E4 000:898.468    J-Link Script File: Executing InitTarget()
+T21E4 000:899.256   SWD selected. Executing JTAG -> SWD switching sequence.
+T21E4 001:007.673   Error: Failed to initialized DAP.
+T21E4 001:007.919   Can not attach to CPU. Trying connect under reset.
+T21E4 001:210.691   
+  ***** Warning: 
+T21E4 001:210.705   RESET (pin 15) high, but should be low. Please check target hardware.
+T21E4 001:261.480   SWD selected. Executing JTAG -> SWD switching sequence.
+T21E4 001:364.947   Error: Failed to initialized DAP.
+T21E4 001:365.131   Connecting to CPU via connect under reset failed.
+T21E4 001:415.962   InitTarget() end - Took 517ms
+T21E4 001:415.977 - 1294.350ms returns 0x00000000
+T21E4 001:420.759 JLINK_Close()
+T21E4 001:422.404 - 1.644ms
+T21E4 001:422.415   
+T21E4 001:422.419   Closed

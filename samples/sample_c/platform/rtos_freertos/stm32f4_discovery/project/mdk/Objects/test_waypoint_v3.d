@@ -1,0 +1,17 @@
+.\objects\test_waypoint_v3.o: ..\..\..\..\..\module_sample\waypoint_v3\test_waypoint_v3.c
+.\objects\test_waypoint_v3.o: ..\..\..\..\..\module_sample\utils/util_file.h
+.\objects\test_waypoint_v3.o: ..\..\..\..\..\module_sample\utils/util_misc.h
+.\objects\test_waypoint_v3.o: ..\..\..\..\..\..\..\psdk_lib\include\dji_typedef.h
+.\objects\test_waypoint_v3.o: D:\soft\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\test_waypoint_v3.o: D:\soft\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\test_waypoint_v3.o: D:\soft\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\test_waypoint_v3.o: D:\soft\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\test_waypoint_v3.o: D:\soft\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\test_waypoint_v3.o: D:\soft\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\test_waypoint_v3.o: ..\..\..\..\..\..\..\psdk_lib\include\dji_error.h
+.\objects\test_waypoint_v3.o: ..\..\..\..\..\module_sample\waypoint_v3\test_waypoint_v3.h
+.\objects\test_waypoint_v3.o: ..\..\..\..\..\..\..\psdk_lib\include\dji_logger.h
+.\objects\test_waypoint_v3.o: ..\..\..\..\..\..\..\psdk_lib\include\dji_platform.h
+.\objects\test_waypoint_v3.o: ..\..\..\..\..\..\..\psdk_lib\include\dji_waypoint_v3.h
+.\objects\test_waypoint_v3.o: ..\..\..\..\..\module_sample\waypoint_v3\waypoint_file_c/waypoint_v3_test_file_kmz.h
+.\objects\test_waypoint_v3.o: ..\..\..\..\..\..\..\psdk_lib\include\dji_fc_subscription.h

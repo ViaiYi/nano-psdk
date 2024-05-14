@@ -1,0 +1,17 @@
+.\objects\test_data_transmission.o: ..\..\..\..\..\module_sample\data_transmission\test_data_transmission.c
+.\objects\test_data_transmission.o: ..\..\..\..\..\module_sample\data_transmission\test_data_transmission.h
+.\objects\test_data_transmission.o: ..\..\..\..\..\..\..\psdk_lib\include\dji_typedef.h
+.\objects\test_data_transmission.o: D:\soft\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\test_data_transmission.o: D:\soft\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\test_data_transmission.o: D:\soft\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\test_data_transmission.o: D:\soft\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\test_data_transmission.o: D:\soft\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\test_data_transmission.o: D:\soft\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\test_data_transmission.o: ..\..\..\..\..\..\..\psdk_lib\include\dji_error.h
+.\objects\test_data_transmission.o: ..\..\..\..\..\..\..\psdk_lib\include\dji_logger.h
+.\objects\test_data_transmission.o: ..\..\..\..\..\..\..\psdk_lib\include\dji_platform.h
+.\objects\test_data_transmission.o: ..\..\..\..\..\module_sample\utils/util_misc.h
+.\objects\test_data_transmission.o: ..\..\..\..\..\..\..\psdk_lib\include\dji_low_speed_data_channel.h
+.\objects\test_data_transmission.o: ..\..\..\..\..\..\..\psdk_lib\include\dji_high_speed_data_channel.h
+.\objects\test_data_transmission.o: ..\..\..\..\..\..\..\psdk_lib\include\dji_aircraft_info.h
+.\objects\test_data_transmission.o: ..\..\..\..\..\module_sample\widget_interaction_test/test_widget_interaction.h

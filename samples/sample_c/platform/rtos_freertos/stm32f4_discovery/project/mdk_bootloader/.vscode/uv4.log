@@ -1,0 +1,5 @@
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\soft\keil5\ARM\ARMCC\Bin'
+Build target 'mdk_bootloader'
+After Build - User command #1: D:\soft\keil5\ARM\ARMCC\bin\fromelf.exe .\Objects\psdk_demo.axf --bin --output .\dji_sdk_bootloader.bin
+".\Objects\psdk_demo.axf" - 0 Error(s), 0 Warning(s).
+Build Time Elapsed:  00:00:00

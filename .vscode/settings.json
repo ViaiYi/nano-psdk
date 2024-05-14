@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "pwm.h": "c",
+        "application.h": "c",
+        "test_widget.h": "c",
+        "stm32f4xx_hal.h": "c",
+        "uart.h": "c",
+        "speaker.h": "c",
+        "test_data_transmission.h": "c",
+        "foc.h": "c",
+        "widget_config_json.h": "c",
+        "test_widget_speaker.h": "c",
+        "file_binary_array_list_en.h": "c",
+        "dji_typedef.h": "c",
+        "myiic.h": "c",
+        "pca9685.h": "c",
+        "icon_switch5_unselect_png.h": "c"
+    }
+}
